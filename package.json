@@ -1,0 +1,21 @@
+{
+  "name": "webpack-watch-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "webpack --mode development --watch --progress",
+    "webpack:start": "webpack --mode development --watch --progress",
+    "webpack:build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.4",
+    "webpack": "^5.0.0-beta.16",
+    "webpack-cli": "^3.3.11"
+  }
+}
