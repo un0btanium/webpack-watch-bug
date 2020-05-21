@@ -34,10 +34,11 @@ var Main = /*#__PURE__*/function () {
     value: function startApplication() {
       // when using alias as well as cyclic dependencies between modules the webpack watch feature seems to break
       // make changes here
-      // webpack watch does not recognize them after the second change
+      // webpack watch does not recognize changes after the second change
       console.log("Test1");
       console.log("Test2");
       console.log("Test3");
+      console.log("Test4");
       console.log("Test4");
     }
   }]);
