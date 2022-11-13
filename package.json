@@ -16,6 +16,6 @@
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.4",
     "webpack": "^5.0.0-beta.16",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
